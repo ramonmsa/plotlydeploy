@@ -1,0 +1,25 @@
+body{
+  background-color: #1c1c1c;
+  color: #ffffff;
+  font-family: 'Barlow', sans-serif !important;
+}
+.jumbotron {
+  background-image: url("../img/bacterias.jpg");
+  background-size: 170em;
+  background-repeat: no-repeat;
+  color: #1c1c1c;
+  filter: sepia(40%);
+  top: -1em;
+}
+.panel-primary, .well{
+  background-color: #303030;	
+  color: #ffffff;
+}
+.projectInfo{
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 3em;
+}
+#selDataset{
+	color: #1c1c1c;
+}
