@@ -122,7 +122,7 @@ function buildCharts(sample) {
 		    mode: 'markers',
 		    marker: { 
 				size: sample_values,
-				color: ids.map(c => c*14),
+				color: ids.map(c => c),
 				colorscale: 'Earth'
 			  }
 		}
@@ -169,6 +169,7 @@ function buildCharts(sample) {
     var gaugeLayout = { 
 	   plot_bgcolor: "rgba(0,0,0,0)",
 	   paper_bgcolor: "rgba(0,0,0,0)",
+	   width: 500, height: 500, margin: { t: 0, b: 0 },
        font: fontLayout
     };
 
